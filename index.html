@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyberpunk Wheel of Fortune</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+      body {
+        font-family: 'Orbitron', sans-serif;
+        background-color: #0c0a1a;
+      }
+      .neon-text {
+        color: #fff;
+        text-shadow:
+          0 0 5px #fff,
+          0 0 10px #fff,
+          0 0 20px #0ff,
+          0 0 30px #0ff,
+          0 0 40px #0ff;
+      }
+      .neon-button-shadow {
+         box-shadow: 0 0 5px #0ff, 0 0 15px #0ff, 0 0 25px #0ff, 0 0 50px #0ff;
+      }
+      .seven-segment {
+        font-family: 'Orbitron', sans-serif;
+        font-weight: 700;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-gradient-to-br from-indigo-900 via-slate-900 to-purple-900">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
